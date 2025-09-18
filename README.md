@@ -2,7 +2,7 @@
 
 Această aplicație oferă o interfață grafică pentru testarea și compararea mai multor algoritmi de rezolvare a problemei comis-voiajorului (TSP), folosind tehnici evolutive și euristice.
 
-# Algoritmi implementați
+## Algoritmi implementați
 
 - **Backtracking (BCKT)** – Căutare exhaustivă pentru soluția optimă;
 - **Nearest Neighbor (NN)** – Algoritm euristic rapid, pornește dintr-un oraș și alege mereu cel mai apropiat oraș nevizitat;
@@ -10,7 +10,7 @@ Această aplicație oferă o interfață grafică pentru testarea și compararea
 - **Genetic Algorithm (GA)** – Algoritm evolutiv ce folosește mutații și recombinări pentru a găsi soluții bune;
 - **Diverse tehnici GA** – Testare cu diferite tipuri de mutații (swap, inversion, scramble) și recombinări (Order Crossover, PMX).
 
-# Funcționalități
+## Funcționalități
 
 - **Interfață grafică** realizată cu [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter);
 - **Afișare grafice** comparative pentru timpii de execuție și costurile soluțiilor;
@@ -18,7 +18,7 @@ Această aplicație oferă o interfață grafică pentru testarea și compararea
 - **Istoric acțiuni** și posibilitate de ștergere a acestuia;
 - **Pop-up-uri informative** pentru fiecare acțiune importantă.
 
-# Cum se folosește
+## Cum se folosește
 
 1. **Instalează dependențele**:
     ```bash
@@ -29,14 +29,14 @@ Această aplicație oferă o interfață grafică pentru testarea și compararea
     python main.py
     ```
 3. **Introdu numărul de orașe (N)** și apasă `Pornire algoritmi` pentru a rula toți algoritmii.
-4. Folosește butoanele pentru a afișa graficele, a testa diverse tehnici GA sau a șterge istoricul.
+4. **Folosește butoanele** pentru a afișa graficele, a testa diverse tehnici GA sau a șterge istoricul.
 
-# Structura fișierelor rezultate
+## Structura fișierelor rezultate
 
 - `rezultat_tsp.csv` – Rezultate pentru fiecare rulare a algoritmilor TSP.
 - `rezultat_diverse_tehnici_tsp.csv` – Rezultate pentru testarea tehnicilor GA.
 
-# Exemplu interfață
+## Exemplu interfață
 ![video](Demo.mp4)
 ![screenshot](Screenshot1.png)
 ![screenshot](Screenshot2.png)
