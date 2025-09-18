@@ -1,6 +1,6 @@
 # Aplicație Algoritmi Evolutivi - Problema Comis-Voiajorului (TSP)
 
-Această aplicație oferă o interfață grafică pentru testarea și compararea mai multor algoritmi de rezolvare a problemei comis-voiajorului (TSP), folosind tehnici evolutive și euristice.
+Această aplicație oferă o interfață grafică pentru testarea și compararea mai multor algoritmi de rezolvare a problemei comis-voiajorului (TSP), folosind tehnici evolutive și euristice. Codul este structurat modular, cu funcții separate pentru fiecare algoritm și pentru interacțiunea cu interfața grafică.
 
 ## Algoritmi implementați
 
@@ -51,12 +51,6 @@ Această aplicație oferă o interfață grafică pentru testarea și compararea
 ## Autori
 
 - Andrei Bujor
-
----
-
-**Notă:** Codul este structurat modular, cu funcții separate pentru fiecare algoritm și pentru interacțiunea cu interfața grafică.
-
----
 
 ## Licență
 
